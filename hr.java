@@ -6,8 +6,8 @@ public class HrDepartment extends SuperDepartment {
 	
 	public HrDepartment() {
 		this.dName = " HR Department ";
-		this.todWork = " Fill today�s timesheet and mark your attendance";
-		this.workDeadLine = " Complete by EOD ";
+		this.Work = " Fill today�s timesheet and mark your attendance";
+		this.DeadLine = " Complete by EOD ";
 		this.activity = " team Lunch";
 	}
 	
@@ -16,11 +16,11 @@ public class HrDepartment extends SuperDepartment {
 	}
 	
 	public String getTodaysWork() {
-		return this.todWork;
+		return this.Work;
 	}
 	
 	public String getWorkDeadline() {
-		return this.workDeadLine;
+		return this.DeadLine;
 	}
 	
 	public String doActivity() {
