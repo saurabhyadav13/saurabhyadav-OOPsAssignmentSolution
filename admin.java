@@ -5,8 +5,8 @@ public class AdminDepartment extends SuperDepartment {
 	
 	public AdminDepartment() {
 		this.dName = " Admin Department ";
-		this.todWork = " Complete your documents Submission";
-		this.workDeadLine = " Complete by EOD ";
+		this.Work = " Complete your documents Submission";
+		this.DeadLine = " Complete by EOD ";
 	}
 	
 	public String departmentName() {
@@ -14,10 +14,10 @@ public class AdminDepartment extends SuperDepartment {
 	}
 	
 	public String getTodaysWork() {
-		return this.todWork;
+		return this.Work;
 	}
 	
 	public String getWorkDeadline() {
-		return this.workDeadLine;
+		return this.DeadLine;
 	}	
 }
