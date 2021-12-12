@@ -8,10 +8,10 @@ public class SuperDepartment {
 	public String holiday;
 	
 	public SuperDepartment() {
-		this.dName = " Super Department ";
-		this.Work = " No Work as of now";
-		this.DeadLine = " Nil ";
-		this.holiday = " Today is not a holiday";
+		this.dName = " Super Deprtment ";
+		this.Work = " No Work. as of now";
+		this.DeadLine = " Nil. ";
+		this.holiday = " Today is not an holiday";
 	}
 	
 	public String departmentName() {
