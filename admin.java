@@ -4,9 +4,9 @@ public class AdminDepartment extends SuperDepartment {
 	
 	
 	public AdminDepartment() {
-		this.dName = " Admin Department ";
-		this.Work = " Complete your documents Submission";
-		this.DeadLine = " Complete by EOD ";
+		this.dName = " Admin. Department ";
+		this.Work = " Completed your document Submission";
+		this.DeadLine = " Complete by EOD, ";
 	}
 	
 	public String departmentName() {
