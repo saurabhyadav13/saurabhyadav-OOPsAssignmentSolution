@@ -5,10 +5,10 @@ public class HrDepartment extends SuperDepartment {
 	String activity; 
 	
 	public HrDepartment() {
-		this.dName = " HR Department ";
-		this.Work = " Fill today�s timesheet and mark your attendance";
-		this.DeadLine = " Complete by EOD ";
-		this.activity = " team Lunch";
+		this.dName = " HR! Deprtment ";
+		this.Work = " Fill today,s timesheet and mark yours  attendence";
+		this.DeadLine = " Completed by EOD ";
+		this.activity = " teams Lumch";
 	}
 	
 	public String departmentName() {
